@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvtax"
+        android:text="Tax Calcualte"
+        style="@style/textview"
+        />
+    <EditText
+        android:id="@+id/etsalary"
+        android:hint="Enter your montly salary"
+        android:layout_below="@+id/tvtax"
+        style="@style/editview"
+        />
+
+    <Button
+        android:id="@+id/btncalculate"
+        android:layout_below="@+id/etsalary"
+        android:text="Calculate"
+        style="@style/textview"
+        />
+    <TextView
+        android:id="@+id/tvview"
+        android:layout_below="@+id/btncalculate"
+        android:text="Yearly tax:"
+        style="@style/textview"
+        />
+
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_below="@+id/tvview"
+        style="@style/textview"
+        />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
